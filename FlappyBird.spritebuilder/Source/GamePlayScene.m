@@ -28,7 +28,7 @@
     }
 }
 
-- (void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
+- (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
     [character flap];
 }
 
